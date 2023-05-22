@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B72E2F642A1C0CE300C6307E /* SwiftySealtyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = B72E2F632A1C0CE300C6307E /* SwiftySealtyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72E2F712A1C0D3800C6307E /* SwiftySealtyLibExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E2F702A1C0D3800C6307E /* SwiftySealtyLibExampleApp.swift */; };
+		B72E2F732A1C0D3800C6307E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E2F722A1C0D3800C6307E /* ContentView.swift */; };
+		B72E2F752A1C0D4200C6307E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72E2F742A1C0D4200C6307E /* Assets.xcassets */; };
+		B72E2F782A1C0D4200C6307E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72E2F772A1C0D4200C6307E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B72E2F602A1C0CE300C6307E /* SwiftySealtyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySealtyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72E2F632A1C0CE300C6307E /* SwiftySealtyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftySealtyLib.h; sourceTree = "<group>"; };
+		B72E2F6E2A1C0D3800C6307E /* SwiftySealtyLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftySealtyLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72E2F702A1C0D3800C6307E /* SwiftySealtyLibExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySealtyLibExampleApp.swift; sourceTree = "<group>"; };
+		B72E2F722A1C0D3800C6307E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B72E2F742A1C0D4200C6307E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B72E2F772A1C0D4200C6307E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B72E2F5D2A1C0CE300C6307E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72E2F6B2A1C0D3800C6307E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				B72E2F622A1C0CE300C6307E /* SwiftySealtyLib */,
+				B72E2F6F2A1C0D3800C6307E /* SwiftySealtyLibExample */,
 				B72E2F612A1C0CE300C6307E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B72E2F602A1C0CE300C6307E /* SwiftySealtyLib.framework */,
+				B72E2F6E2A1C0D3800C6307E /* SwiftySealtyLibExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +66,25 @@
 				B72E2F632A1C0CE300C6307E /* SwiftySealtyLib.h */,
 			);
 			path = SwiftySealtyLib;
+			sourceTree = "<group>";
+		};
+		B72E2F6F2A1C0D3800C6307E /* SwiftySealtyLibExample */ = {
+			isa = PBXGroup;
+			children = (
+				B72E2F702A1C0D3800C6307E /* SwiftySealtyLibExampleApp.swift */,
+				B72E2F722A1C0D3800C6307E /* ContentView.swift */,
+				B72E2F742A1C0D4200C6307E /* Assets.xcassets */,
+				B72E2F762A1C0D4200C6307E /* Preview Content */,
+			);
+			path = SwiftySealtyLibExample;
+			sourceTree = "<group>";
+		};
+		B72E2F762A1C0D4200C6307E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B72E2F772A1C0D4200C6307E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +119,23 @@
 			productReference = B72E2F602A1C0CE300C6307E /* SwiftySealtyLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B72E2F6D2A1C0D3800C6307E /* SwiftySealtyLibExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72E2F792A1C0D4200C6307E /* Build configuration list for PBXNativeTarget "SwiftySealtyLibExample" */;
+			buildPhases = (
+				B72E2F6A2A1C0D3800C6307E /* Sources */,
+				B72E2F6B2A1C0D3800C6307E /* Frameworks */,
+				B72E2F6C2A1C0D3800C6307E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySealtyLibExample;
+			productName = SwiftySealtyLibExample;
+			productReference = B72E2F6E2A1C0D3800C6307E /* SwiftySealtyLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -89,9 +143,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					B72E2F5F2A1C0CE300C6307E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B72E2F6D2A1C0D3800C6307E = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -110,6 +168,7 @@
 			projectRoot = "";
 			targets = (
 				B72E2F5F2A1C0CE300C6307E /* SwiftySealtyLib */,
+				B72E2F6D2A1C0D3800C6307E /* SwiftySealtyLibExample */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +181,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B72E2F6C2A1C0D3800C6307E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E2F782A1C0D4200C6307E /* Preview Assets.xcassets in Resources */,
+				B72E2F752A1C0D4200C6307E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -129,6 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72E2F6A2A1C0D3800C6307E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E2F732A1C0D3800C6307E /* ContentView.swift in Sources */,
+				B72E2F712A1C0D3800C6307E /* SwiftySealtyLibExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +394,64 @@
 			};
 			name = Release;
 		};
+		B72E2F7A2A1C0D4200C6307E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftySealtyLibExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 5EN4C8MKE6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soprasteria.SwiftySealtyLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72E2F7B2A1C0D4200C6307E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftySealtyLibExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 5EN4C8MKE6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soprasteria.SwiftySealtyLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +469,15 @@
 			buildConfigurations = (
 				B72E2F682A1C0CE300C6307E /* Debug */,
 				B72E2F692A1C0CE300C6307E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72E2F792A1C0D4200C6307E /* Build configuration list for PBXNativeTarget "SwiftySealtyLibExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E2F7A2A1C0D4200C6307E /* Debug */,
+				B72E2F7B2A1C0D4200C6307E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
