@@ -1,10 +1,3 @@
-//
-//  SwiftySealtyLib.h
-//  SwiftySealtyLib
-//
-//  Created by vtonchak on 22/5/23.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for SwiftySealtyLib.
