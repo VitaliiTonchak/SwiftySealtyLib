@@ -1,5 +1,7 @@
 public final class SwiftySealtyLib {
     let name = "SwiftySealtyLib"
+    
+    public init() {}
         
     public func add(a: Int, b: Int) -> Int {
         return a + b
